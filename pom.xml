@@ -10,9 +10,9 @@
     </parent>
     <groupId>com.gestaocerta</groupId>
     <artifactId>api-gateway</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.1.ALPHA</version>
     <name>api-gateway</name>
-    <description>api-gateway</description>
+    <description>api-gateway Microservice Projeto Gestão Certa</description>
     <url/>
     <licenses>
         <license/>
@@ -58,6 +58,7 @@
     </dependencyManagement>
 
     <build>
+        <finalName>api-gateway</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
